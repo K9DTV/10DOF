@@ -1,5 +1,7 @@
 # 10DOF Pico HUD
 
+[![CI](https://github.com/K9DTV/10DOF/actions/workflows/ci.yml/badge.svg)](https://github.com/K9DTV/10DOF/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.12-blue) ![License](https://img.shields.io/github/license/K9DTV/10DOF)
+
 Attitude HUD for a Raspberry Pi Pico or Pico 2. One I2C bus reads an MPU-9250-class accelerometer and gyro, an HMC5883L magnetometer, and an FXPQ3115 barometer, then draws a wireframe airplane on a 128×64 SSD1306.
 
 The breadboard photo below is a Pimoroni Pico Plus 2, which uses the Pico 2 pinout. The same GP0/GP1 wiring works on a Pico or a Pico 2.
