@@ -1,0 +1,15 @@
+[project]
+name = "10dof-pico-hud"
+version = "1.00.00"
+description = "Raspberry Pi Pico and Pico 2 10DOF attitude HUD on an SSD1306"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "James" }]
+
+[project.urls]
+Homepage = "https://github.com/K9DTV/10DOF"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
